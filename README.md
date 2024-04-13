@@ -7,3 +7,9 @@ For an activist project, perhaps you want to share what we are learning in class
 Note: the actual finished product needs to be ready by the end of the semester. If you want to do a workshop, you need to actually do a workshop before May 10th. I can help you schedule that. If you want to make a poster campaign, it needs to be ready to go and displayed before May 10th. I can help you locate printing and get the needed permissions from officials.  If you do a social media campaign, some thought needs to go into how you will get it out to people before the end of the semester.
 
 For a creative project, perhaps this topic inspires you to create a piece of creative writing or poetry, a song, a painting, a graphic novel, or a series of photographs (etc!). You can do anything you want to do, creatively, for this project.  Similarly to the above, you’ll want to have a goal of reaching a broader audience, or addressing a topic we didn’t have a chance to investigate in class, or providing the opportunity for people to interact and engage with the topic in a new way.
+
+Project proposal:
+I’ve decided to keep creating a website looking at specific songs, but I’m going to highlight around four songs from different decades to analyze the social moments they were created in, and to see how feminist rage songs have evolved into the songs we see today in 2024. I'm creating a fake feminist organization website, EmpowerUs, that will host pages analzying these songs under a project where it will an activist project to raise awareness and continue the discourse about how songs can be used in revolution and how we can voice our rage.
+
+Project details:
+HTLM Website will be created using VSCode; it might eventually become a React/NextJS website later on if there's time before the deadline.
