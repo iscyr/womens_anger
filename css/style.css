@@ -1,11 +1,19 @@
 /* Only edit this if you know what you are doing! */
-body { margin: 0px; padding: 0px; font-family:"Arial"; overflow-x:hidden; }
+body { 
+    margin: 0px; 
+    padding: 0px; 
+    font-family:"Arial"; 
+    background-color: white }
+.container{
+     width: 80%;
+     margin: auto; /*moves it over to the middle*/
+     overflow: hidden;
+}
 
-/* Only edit this if you know what you are doing! */
-img { position: absolute; display: block; margin: 0px; border: none; padding: 0px; }
-
-
-#content-container { display: block; position: relative; width: 1440px; width: 1440px; height: 1024px; overflow: hidden; display: block;  margin-left: auto; margin-right: auto;  }
+ul{
+    margin: 0;
+    padding: 0;
+}
 
 #bg_desktop {
 	top: 0px;
@@ -32,12 +40,6 @@ img { position: absolute; display: block; margin: 0px; border: none; padding: 0p
 	background-color: rgba(239,206,250);
 }
 
-#img_labour{
-	width: 711px;
-	height: 373px;
-	right: 0%;
-}
-
 #text-header{
 	font-family:Verdana, Geneva, Tahoma, sans-serif;
 	color: rgb(93,78,96);
@@ -46,26 +48,6 @@ img { position: absolute; display: block; margin: 0px; border: none; padding: 0p
 #song-title{
 	font-family:monospace;
 	color: rgb(93,78,96);
-}
-  
-/* Reset default browser styles */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* Basic styling */
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    line-height: 1.6;
-    background-color: #f7f7f7;
-}
-
-.container {
-    width: 80%;
-    margin: auto;
-    padding: 20px;
 }
 
 header {
@@ -117,21 +99,19 @@ section p {
     margin-bottom: 20px;
 }
 
-
+/* Showcase image */
 #showcase{
     min-height: 400px;
-    background: url('../img/showcase.jpg') no-repeat 0 -400px;/*get image from outside folder*/
+    background: url('../img/showcase.jpg') no-repeat 0 -400px; /*get image from outside folder*/
     text-align:center;
+    color:white;
 }
 
 #showcase h1{
     margin-top:100px;
     font-size:55px;
     margin-bottom:10px;
-}
-
-#showcase p{
-    font-size: 20px;
+    color:white;
 }
 
 /* Styling for footer */
