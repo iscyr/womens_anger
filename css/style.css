@@ -10,6 +10,9 @@ body {
      overflow: hidden;
 }
 
+.toc-wrapper{
+    background-color: rgba(212,178,216,1);
+}
 ul{
     margin: 0;
     padding: 0;
@@ -107,6 +110,11 @@ section p {
     color:white;
 }
 
+#showcase-nonimg{
+    text-align:center;
+    color: rgb(93,78,96);
+    font-size: 25px;
+}
 #showcase h1{
     margin-top:100px;
     font-size:55px;
