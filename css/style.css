@@ -9,9 +9,10 @@ body {
      margin: auto; /*moves it over to the middle*/
      overflow: hidden;
 }
-#paragraph-container{
-    margin-bottom: 20px;
-}
+p {
+    margin-bottom: 1.5em; /* adds 1 unit of spacing after each paragraph */
+  }
+  
 /* Table of Contents */
 .toc-wrapper{
     background-color: rgba(239,206,250);
@@ -78,11 +79,20 @@ body {
     box-shadow: 0 8px 15px rgb(239,206,250 / .55);
     background:rgb(212,178,216);
 }
-.btn {
+/* HTML link button */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(130,108,127);
+    color: #fff;
     text-decoration: none;
-    padding: 0.5rem;
-    border: 1px solid #333333;
-  }  
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: rgb(212,178,216);
+}
 ul{
     margin: 0;
     padding: 0;
@@ -98,15 +108,16 @@ ul{
 #bg_main {
 	top: 0px;
 	left: 0px;
-	width: 1440px;
-	height: 1024px;
+    padding-bottom: 20px;
 	background:rgba(212,178,216,1);
 }
 
 #text{
     color: rgba(93,78,96)
 }
-
+#text-for-footer{
+    margin-bottom: 100px;
+}
 #bg_pink{
 	width: 1440px;
 	height: 429px;
@@ -116,11 +127,13 @@ ul{
 #text-header{
 	font-family:Verdana, Geneva, Tahoma, sans-serif;
 	color: rgb(93,78,96);
+    margin: auto;
 }
 
 #song-title{
 	font-family:monospace;
 	color: rgb(93,78,96);
+    margin: auto;
 }
 
 header {
@@ -201,6 +214,7 @@ footer {
     color: rgba(93,78,96);
     text-align: center;
     padding: 10px 0;
+    margin-top: 200px;
 }
 
 footer p {
