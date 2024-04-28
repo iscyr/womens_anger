@@ -112,15 +112,32 @@ ul{
     margin-bottom: 100px;
 }
 #bg_pink{
-	width: 1440px;
-	height: 429px;
 	background-color: rgba(239,206,250);
+    top: 0px;
+	left: 0px;
+    padding-bottom: 20px;
+}
+
+/* Boxes */
+#boxes{
+    margin-top:20px;
+}
+
+/* for individual boxes */
+#boxes .box{
+    float:left;
+    text-align: center;
+    width:30%;
+    padding:10px;
 }
 
 #text-header{
 	font-family:Verdana, Geneva, Tahoma, sans-serif;
 	color: rgb(93,78,96);
     margin: auto;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 #song-title{
