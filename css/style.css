@@ -199,7 +199,8 @@ section p {
 /* Showcase image */
 #showcase{
     min-height: 400px;
-    background: url('../img/showcase.jpg') no-repeat 0 -400px; /*get image from outside folder*/
+    background: url('../img/showcase_1.jpg') no-repeat 0 -200px; /*get image from outside folder*/
+    background-size: cover;
     text-align:center;
     color:white;
 }
