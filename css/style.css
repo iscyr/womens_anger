@@ -2,7 +2,7 @@
 body { 
     margin: 0px; 
     padding: 0px; 
-    padding-bottom:25px;
+    padding-bottom:50px;
     font-family:"Arial"; 
     background-color: white }
 .container{
@@ -109,9 +109,7 @@ ul{
 #text{
     color: rgba(93,78,96)
 }
-#text-for-footer{
-    margin-bottom: 100px;
-}
+
 #bg_pink{
 	background-color: rgba(239,206,250);
     top: 0px;
@@ -131,6 +129,22 @@ ul{
     width:30%;
     padding:5px;
 }
+/* Main-col - About page*/
+article#main-col{
+    float:left;
+    width:65%;
+}
+/* Sidebar - About page*/
+aside#sidebar{
+    float: right;
+    width:30%;
+    margin-top: 10px;
+}
+
+aside#sidebar .quote input, aside#sidebar .quote textarea{
+    width: 90%;
+    padding: 5px;
+}
 
 #text-header{
 	font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -141,12 +155,6 @@ ul{
     padding-bottom: 25px;
 }
 
-#song-title{
-	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-	color: rgb(93,78,96);
-    margin: auto;
-    font-size: 20px;
-}
 
 header {
     background: rgba(239,206,250);
@@ -274,4 +282,10 @@ footer p {
     padding-bottom: 20px;
     border-radius: 10px;
     background-color:rgba(168,143,172);
+}
+
+/* Main-col - About page*/
+article#main-col{
+    float:left;
+    width:65%;
 }
