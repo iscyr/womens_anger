@@ -30,19 +30,19 @@
 </head>
 <body>
 
-    <header>
-        <div class="container">
-            <h1 id="text">EmpowerUs: Advocates for Gender Equality</h1>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="activist_project.html">Activist Project</a></li>
-                    <li class="current"><a href="faq.html">FAQ</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+    <div class="sidenav" id="mySidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="activist_project.html">Activist Project</a>
+        <a href="faq.html">FAQ</a>
+    </div>
+    <div class="main" id="main">
+      <header>
+          <div class="container">
+              <h1 id="text"><span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>EmpowerUs: Advocates for Gender Equality</h1>
+          </div>
+      </header>
 
     <div class="container">
         <section id="faq">
@@ -85,15 +85,6 @@
         </div>
     </footer>
 
-    <script>
-        function toggleAnswer(id) {
-            var answer = document.getElementById("answer" + id);
-            if (answer.style.display === "block") {
-                answer.style.display = "none";
-            } else {
-                answer.style.display = "block";
-            }
-        }
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>
