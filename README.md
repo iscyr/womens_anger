@@ -12,4 +12,4 @@ Project proposal:
 I’ve decided to keep creating a website looking at specific songs, but I’m going to highlight around four songs from different decades to analyze the social moments they were created in, and to see how feminist rage songs have evolved into the songs we see today in 2024. I'm creating a fake feminist organization website, EmpowerUs, that will host pages analzying these songs under a project where it will an activist project to raise awareness and continue the discourse about how songs can be used in revolution and how we can voice our rage.
 
 Project details:
-HTLM Website will be created using VSCode; it might eventually become a React/NextJS website later on if there's time before the deadline.
+HTML Website will be created using VSCode; it might eventually become a React/NextJS website later on if there's time before the deadline.
